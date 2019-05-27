@@ -1,0 +1,31 @@
+*{
+	font-family: Arial;
+}
+#Titulo{
+	color:#0040FF;
+	text-shadow: 2px 2px 4px #000000;
+    font-size:80px;	
+}
+
+h1{
+	color:#0040FF;
+}
+h2{
+	color:#A4A4A4;
+	outline: 5px solid #00BFFF;
+}
+
+hr{
+	background-color:#00FFFF;
+}
+ul{
+
+  list-style-position: inside;
+}
+img {
+  border-radius: 18px;
+}
+.grad1 {
+  height: 100%;
+  background-image: linear-gradient(#00FFFF,#81DAF5, #FA8258); 
+}
