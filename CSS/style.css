@@ -1,5 +1,10 @@
+@font-face {
+    src: url(Cinzel/Raleway-Regular.ttf);
+    font-family: 'Raleway-Regular';    
+    font-weight: normal;
+}
 *{
-	font-family: Arial;
+	font-family: 'Cinzel', serif;
 }
 #Titulo{
 	color:#0040FF;
@@ -11,21 +16,33 @@ h1{
 	color:#0040FF;
 }
 h2{
-	color:#A4A4A4;
+	color:#767778;
 	outline: 5px solid #00BFFF;
 }
 
 hr{
 	background-color:#00FFFF;
 }
+p.citacion{
+font-style: italic;
+font-weight: bold;
+font-size: 30px;
+}
+p{
+	 padding: 10px;
+	 margin: 10px;
+}
+
 ul{
 
   list-style-position: inside;
 }
+img.central{ 
+	display: block;
+    margin-left: auto;
+    margin-right: auto }
 img {
   border-radius: 18px;
 }
-.grad1 {
-  height: 100%;
-  background-image: linear-gradient(#00FFFF,#81DAF5, #FA8258); 
-}
+
+
