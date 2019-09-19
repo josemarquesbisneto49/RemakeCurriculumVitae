@@ -6,10 +6,14 @@
 *{
 	font-family: 'Cinzel', serif;
 }
+
 #Titulo{
-	color:#0040FF;
+	color: black;
 	text-shadow: 2px 2px 4px #000000;
     font-size:80px;	
+}
+#Subtitulo{
+	color: white;
 }
 
 h1{
@@ -18,6 +22,11 @@ h1{
 h2{
 	color:#767778;
 	outline: 5px solid #00BFFF;
+	display: block;
+	text-align: center;
+	margin:2em;
+	padding:1em;
+	
 }
 
 hr{
@@ -26,23 +35,63 @@ hr{
 p.citacion{
 font-style: italic;
 font-weight: bold;
-font-size: 30px;
+font-size: 1em;
+margin: 0em;
 }
 p{
-	 padding: 10px;
-	 margin: 10px;
+	 padding: 1em;
+	 margin: auto;
+	 margin-left: 5em;
+	 margin-right: 5em;
 }
 
 ul{
-
-  list-style-position: inside;
+	margin: auto;
+	margin-left: 5em;
+	margin-right: 5em;
+	padding: 3em;
 }
 img.central{ 
 	display: block;
     margin-left: auto;
-    margin-right: auto }
+	margin-right: auto;
+	width:10%; 
+}
+#choro{
+	margin: 0%;
+	margin-left: 3em;
+	padding: 0.2em;
+	margin-right: 1em;
+	width: 12em;
+}
 img {
-  border-radius: 18px;
+  border-radius: 18%;
 }
 
+header{
+	margin-top: 0px;
+	background: #0040FF;
+}
 
+iframe{
+	margin-left: 5em;
+	margin-right: 6.5em;
+	padding: 0em;
+	height:20em;
+	width:30em; 
+
+}
+.audios{
+	margin-left: 5em;
+	background: darkgray;
+
+}
+.video{
+	margin:0em;
+	background: #000000;
+	heigth: 100%;
+	width:100%;
+}
+.container{
+	
+}
