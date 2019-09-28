@@ -1,97 +1,182 @@
 @font-face {
     src: url(Cinzel/Raleway-Regular.ttf);
-    font-family: 'Raleway-Regular';    
-    font-weight: normal;
-}
-*{
-	font-family: 'Cinzel', serif;
+    font-family: 'Raleway-Regular';
+    font-weight: bold;
 }
 
-#Titulo{
-	color: black;
-	text-shadow: 2px 2px 4px #000000;
-    font-size:80px;	
-}
-#Subtitulo{
-	color: white;
+* {
+    font-family: 'Cinzel', serif;
 }
 
-h1{
-	color:#0040FF;
-}
-h2{
-	color:#767778;
-	outline: 5px solid #00BFFF;
-	display: block;
-	text-align: center;
-	margin:2em;
-	padding:1em;
-	
+body {
+    padding: 0;
+    margin: 0;
 }
 
-hr{
-	background-color:#00FFFF;
-}
-p.citacion{
-font-style: italic;
-font-weight: bold;
-font-size: 1em;
-margin: 0em;
-}
-p{
-	 padding: 1em;
-	 margin: auto;
-	 margin-left: 5em;
-	 margin-right: 5em;
+#Titulo {
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 80px;
 }
 
-ul{
-	margin: auto;
-	margin-left: 5em;
-	margin-right: 5em;
-	padding: 3em;
+#Subtitulo {
+    color: white;
 }
-img.central{ 
-	display: block;
+
+h1 {
+    color: #0040FF;
+}
+
+h2 {
+    color: darkred;
+    outline: 5px solid #00BFFF;
+    display: block;
+    text-align: center;
+    margin: 2em;
+    padding: 1em;
+    background-image: linear-gradient(-90deg, #00FFFF, #483D8B);
+    font-size: 2.5em;
+}
+
+hr {
+    background-color: #00FFFF;
+}
+
+p.citacion {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0em;
+}
+
+u {
+    font-size: 1.5em;
+}
+
+p {
+    padding: 0.2em;
+    margin: auto;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1.5em;
+}
+
+ul {
+    margin: auto;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 0.2em;
+    font-size: 1.5em;
+}
+
+img.central {
+    display: block;
     margin-left: auto;
-	margin-right: auto;
-	width:10%; 
-}
-#choro{
-	margin: 0%;
-	margin-left: 3em;
-	padding: 0.2em;
-	margin-right: 1em;
-	width: 12em;
-}
-img {
-  border-radius: 18%;
+    margin-right: auto;
+    width: 10%;
 }
 
-header{
-	margin-top: 0px;
-	background: #0040FF;
+#choro {
+    margin: 0%;
+    margin-left: 3em;
+    padding: 0.2em;
+    margin-right: 1em;
+    width: 12em;
 }
 
-iframe{
-	margin-left: 5em;
-	margin-right: 6.5em;
-	padding: 0em;
-	height:20em;
-	width:30em; 
+img.photo {
+    width: 15em;
+    float: right;
+    border-radius: 100%;
+}
 
+header {
+    margin: 0px;
+    background: #0040FF;
 }
-.audios{
-	margin-left: 5em;
-	background: darkgray;
 
+iframe {
+    margin-left: 5em;
+    margin-right: 6.5em;
+    padding: 0em;
+    height: 20em;
+    width: 30em;
 }
-.video{
-	margin:0em;
-	background: #000000;
-	heigth: 100%;
-	width:100%;
+
+.audios {
+    margin-left: 3em;
+    margin-right: 4.43em;
+    background: darkgray;
+    border-radius: 2em;
 }
-.container{
-	
+
+.video {
+    margin: 0em;
+    background: #000000;
+    heigth: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #Titulo {
+        font-size: 3em;
+        text-align: center;
+    }
+    #Subtitulo {
+        text-align: center;
+    }
+    img.photo {
+        margin-left: auto;
+        float: none;
+        margin-right: auto;
+        display: block;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .audios {
+        margin-left: auto;
+        margin-right: auto;
+        background: none;
+        display: block;
+    }
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    @media only screen and (max-width: 320px) {
+        h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        p {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        ul {
+            margin-left: 1em;
+            margin-right: 1em;
+            font-size: 1em;
+        }
+        iframe {
+            width: 90%;
+        }
+        p.citacion {
+            font-weight: bold;
+            font-size: 0.9em;
+            margin: 0em;
+        }
+        u {
+            font-size: 1em;
+        }
+        #choro {
+            margin: 0%;
+            margin-left: 0em;
+            padding: 0em;
+            margin-right: 0em;
+            width: 100%;
+            height: auto;
+        }
+    }
 }
