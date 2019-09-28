@@ -50,10 +50,10 @@ p.citacion {
 }
 
 u {
-    font-size: 1.5em;
+    font-size: 1.5m;
 }
 
-p {
+e p {
     padding: 0.2em;
     margin: auto;
     margin-left: 5em;
@@ -145,38 +145,39 @@ iframe {
         margin-right: auto;
         display: block;
     }
-    @media only screen and (max-width: 320px) {
-        h2 {
-            margin: 0;
-            font-size: 1.5em;
-        }
-        p {
-            margin-left: 1em;
-            margin-right: 1em;
-        }
-        ul {
-            margin-left: 1em;
-            margin-right: 1em;
-            font-size: 1em;
-        }
-        iframe {
-            width: 90%;
-        }
-        p.citacion {
-            font-weight: bold;
-            font-size: 0.9em;
-            margin: 0em;
-        }
-        u {
-            font-size: 1em;
-        }
-        #choro {
-            margin: 0%;
-            margin-left: 0em;
-            padding: 0em;
-            margin-right: 0em;
-            width: 100%;
-            height: auto;
-        }
+}
+
+@media only screen and (max-width: 320px) {
+    h2 {
+        margin: 0;
+        font-size: 1.5em;
+    }
+    p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    ul {
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 1em;
+    }
+    iframe {
+        width: 90%;
+    }
+    p.citacion {
+        font-weight: bold;
+        font-size: 0.9em;
+        margin: 0em;
+    }
+    u {
+        font-size: 1em;
+    }
+    #choro {
+        margin: 0%;
+        margin-left: 0em;
+        padding: 0em;
+        margin-right: 0em;
+        width: 100%;
+        height: auto;
     }
 }
