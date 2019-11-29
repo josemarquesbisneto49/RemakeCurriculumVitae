@@ -153,15 +153,16 @@ iframe {
         margin-right: auto;
         display: block;
     }
-}
-
-@media only screen and (max-width: 320px) {
-   
     ul {
         margin-left: 1em;
         margin-right: 1em;
         font-size: 1em;
     }
+}
+
+@media only screen and (max-width: 320px) {
+   
+   
     iframe {
         width: 90%;
     }
