@@ -118,6 +118,14 @@ iframe {
 }
 
 @media only screen and (max-width: 768px) {
+    h2 {
+        margin: 0;
+        font-size: 1.5em;
+    }
+    p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
     #Titulo {
         font-size: 3em;
         text-align: center;
@@ -148,14 +156,7 @@ iframe {
 }
 
 @media only screen and (max-width: 320px) {
-    h2 {
-        margin: 0;
-        font-size: 1.5em;
-    }
-    p {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
+   
     ul {
         margin-left: 1em;
         margin-right: 1em;
